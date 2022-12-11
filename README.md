@@ -8,7 +8,7 @@ First I load four of datasets, namely movie, rating, links and tags and conduct 
 
 ### Step2
 
-After doing data preprocessings, I build an ALS model based on the rating data to predict the ratings, which is treated as degree of preference of movies among different users. The parameters (maxIter, rank, regParam) are tuned by grid search strategy via 5-fold cross validation to obtain the model with the smallest RMSE on the validation set. This is considered to be the best model for prediction.
+After doing data preprocessings, I build an ALS model based on the rating data to predict the ratings, which is treated as degree of preference of movies among different users. The parameters (maxIter, rank, regParam) are tuned by grid search strategy via cross validation to obtain the model with the smallest RMSE on the validation set. This is considered to be the best model for prediction.
 
 ### Step3
 
